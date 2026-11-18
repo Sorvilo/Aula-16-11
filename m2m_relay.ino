@@ -1,6 +1,6 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
-#include <ESP8266HTTPClient.h>
+#include <ESP8266HTTPClient.h>  // cliente HTTP (linha alterada pela VM AWS)
 
 // --- Credenciais e Configurações de Rede ---
 const char* WIFI_SSID = "Convidado iot";
